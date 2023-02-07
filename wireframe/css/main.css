@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(130, 158, 4);
+    border: 2px solid black;
+    border-color: black;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 31px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body{
+  background-color: blanchedalmond;
+}
+
+img {
+  border: 5px solid black;
+}
+
+.name{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
